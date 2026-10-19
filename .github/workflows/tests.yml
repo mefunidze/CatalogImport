@@ -1,0 +1,11 @@
+name: Tests
+on: [push, pull_request]
+jobs:
+  phpunit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: cp .env.example .env
+      - run: docker compose --profile test run --build --rm tests
+      - if: always()
+        run: docker compose --profile test down

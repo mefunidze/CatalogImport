@@ -1,0 +1,7 @@
+sku,name,price,quantity
+KB-001,Mechanical keyboard,89.90,12
+MS-001,Wireless mouse,24.50,30
+MN-001,27 inch monitor,249.00,6
+INVALID-01,Wrong price,abc,5
+INVALID-02,Wrong quantity,12.50,-3
+KB-001,Mechanical keyboard,84.90,15

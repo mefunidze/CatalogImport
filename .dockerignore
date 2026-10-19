@@ -1,0 +1,16 @@
+vendor
+node_modules
+.git
+.env
+.env.*
+.phpunit.cache
+.phpunit.result.cache
+storage/logs/*
+storage/app/private/imports/*
+storage/framework/views/*
+storage/framework/cache/data/*
+bootstrap/cache/*.php
+.idea
+.vscode
+coverage
+database/*.sqlite*
